@@ -56,8 +56,8 @@ npm start
 - inactive form when the cart is empty;
 - sending the order data (selected meals and the user entered data) to Firebase and store it there ('POST' method);
 - simple validation of user-entered data (no empty fields, full name, correct email and 5-digit zip code);
-- notifications of an incorrectly filled inputs;
+- dynamic notifications of an incorrectly filled inputs;
 - ban on submitting the invalid form;
-- crearing the form and cart after submitting the order successfully;
-- displaying components on demand (e.g. hide/reveal on a button click);
+- clearing the form and cart after submitting the order successfully;
+- displaying components on demand (e.g. hide/reveal them on a button click);
 - responsive design (mobile adaptation);
