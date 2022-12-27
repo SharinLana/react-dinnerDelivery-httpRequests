@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1.5;
+}
+
+@media all and (max-width: 800px) {
+  .btn {
+    font-size: 13px;
+    margin: 5px;
+    padding: 2px 5px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .btn {
+    font-size: 13px;
+    padding: 2px 5px;
+  }
+
+  .quantity {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .btn {
+    font-size: 13px;
+    padding: 0px 3px;
+  }
+
+  .quantity {
+    font-size: 13px;
+  }
+}

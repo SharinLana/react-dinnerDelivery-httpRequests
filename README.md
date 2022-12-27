@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Dinner Delivery (React.js)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This web application is an imitation of an online food delivery store. The user can select meals from the menu list, put it in the cart, enter some data for the delivery (name, address, email, etc) and submit the order. All data (incoming and outcoming) connected to Firebase via http requests.
 
-## Available Scripts
+## The goals of creating this application:
 
-In the project directory, you can run:
+The main goals for me as a web developer were to improve my skills in working with:
 
-### `npm start`
+- http requests and Firebase (fetching and posting data) asynchronously;
+- creating custom reusable components (e.g. UserInput.js);
+- the React hooks: useState(), useEffect(), useContext(), useReducer(), useRef();
+- creating a custom hook useValidate() to validate the data entered by the user in the order form;
+- ReactDOM.createPortal() to display the modal window;
+- the React props (data transfer from parents to children and vice versa);
+- JavaScript logic and methods (filter(), findIndex(), map(), Object.entries(), forEach(), reduce(), concat(), trim(), regex, ternary operator, if/else statement, spread operator, etc);
+- Google fonts;
+- CSS modules;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## To start the app on your machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the project to your machine by running:
 
-### `npm test`
+```
+git clone https://github.com/SharinLana/react-dinnerDelivery-httpRequests.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. To install the project dependencies, run:
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. When the installation is complete, run the following command to start the app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Languages, frameworks, libraries, packages, tools and technologies:
 
-### `npm run eject`
+- React.js
+- JavaScript
+- CSS modules
+- Firebase
+- react-dom
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Functionalities:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- fetching the menu items from Firebase asynchronously and displaying them on the screen;
+- informing users about errors when loading meal data;
+- adding selected meals to the cart;
+- dynamic display of the number of selected items in the cart;
+- dynamic change in the cost of the order as some items are added or removed from the cart;
+- adding and removing items directly in the cart;
+- order form, where the user can enter data to receive the order;
+- inactive form when the cart is empty;
+- sending the order data (selected meals and the user entered data) to Firebase and store it there ('POST' method);
+- simple validation of user-entered data (no empty fields, full name, correct email and 5-digit zip code);
+- notifications of an incorrectly filled inputs;
+- ban on submitting the invalid form;
+- crearing the form and cart after submitting the order successfully;
+- displaying components on demand (e.g. hide/reveal on a button click);
+- responsive design (mobile adaptation);

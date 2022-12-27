@@ -1,0 +1,84 @@
+.btnContainer {
+  width: 200px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10%;
+  background-color: #eeeeee;
+  padding: 0px 20px;
+  border-radius: 35px;
+  border: none;
+}
+
+.activeBtn {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.icon {
+  width: 30px;
+  color: #224b0c;
+}
+
+.btnName {
+  color: #224b0c;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.number {
+  background-color: #ac4425;
+  color: #f0f2b6;
+  padding: 5px 18px;
+  border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media all and (max-width: 500px) {
+  .btnName {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .number {
+    padding: 5px 16px;
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .btnContainer {
+    width: 150px;
+    padding: 0px 10px;
+    border-radius: 50px;
+  }
+  .btnName {
+    font-size: 12px;
+  }
+
+  .number {
+    padding: 5px 12px;
+    font-size: 13px;
+  }
+}

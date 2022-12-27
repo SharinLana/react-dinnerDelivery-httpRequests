@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name {
+  flex: 1.8;
+}
+
+.price,
+.subtotal {
+  flex: 1.5;
+  text-align: center;
+}
+
+@media all and (max-width: 500px) {
+  .name,
+  .price,
+  .subtotal {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .name,
+  .price,
+  .subtotal {
+    font-size: 13px;
+  }
+}

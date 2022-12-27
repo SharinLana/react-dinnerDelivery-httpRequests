@@ -1,0 +1,42 @@
+.summaryContainer {
+  margin-top: -160px;
+  padding: 5px 40px;
+  border-radius: 15px;
+  background-color: #ac4425;
+  text-align: center;
+  max-width: 60%;
+  z-index: 1;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.675);
+}
+
+.summaryHeader,
+.summaryText {
+  color: #eeeeee;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.summaryText {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media all and (max-width: 500px) {
+  .summaryHeader {
+    font-size: 20px;
+  }
+
+  .summaryText {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .summaryContainer {
+    padding: 5px 20px;
+  }
+  .summaryHeader {
+    font-size: 17px;
+  }
+}

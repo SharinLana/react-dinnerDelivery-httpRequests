@@ -1,0 +1,50 @@
+.listItemContainer {
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.name {
+  color: #224b0c;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ac4425;
+}
+
+@media all and (max-width: 500px) {
+  .name,
+  .price {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .name,
+  .price {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+}
