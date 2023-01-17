@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2d25e1d.css",
-    "main.js": "/static/js/main.eb8ba4e6.js",
-    "static/js/787.04788f95.chunk.js": "/static/js/787.04788f95.chunk.js",
-    "static/media/food-table.jpg": "/static/media/food-table.d8e3dc6680f139c77717.jpg",
-    "index.html": "/index.html",
-    "main.c2d25e1d.css.map": "/static/css/main.c2d25e1d.css.map",
-    "main.eb8ba4e6.js.map": "/static/js/main.eb8ba4e6.js.map",
-    "787.04788f95.chunk.js.map": "/static/js/787.04788f95.chunk.js.map"
+    "main.css": "/react-dinnerDelivery-httpRequests/static/css/main.c2d25e1d.css",
+    "main.js": "/react-dinnerDelivery-httpRequests/static/js/main.2616eecb.js",
+    "static/js/787.04788f95.chunk.js": "/react-dinnerDelivery-httpRequests/static/js/787.04788f95.chunk.js",
+    "static/media/food-table.jpg": "/react-dinnerDelivery-httpRequests/static/media/food-table.d8e3dc6680f139c77717.jpg",
+    "index.html": "/react-dinnerDelivery-httpRequests/index.html",
+    "main.c2d25e1d.css.map": "/react-dinnerDelivery-httpRequests/static/css/main.c2d25e1d.css.map",
+    "main.2616eecb.js.map": "/react-dinnerDelivery-httpRequests/static/js/main.2616eecb.js.map",
+    "787.04788f95.chunk.js.map": "/react-dinnerDelivery-httpRequests/static/js/787.04788f95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2d25e1d.css",
-    "static/js/main.eb8ba4e6.js"
+    "static/js/main.2616eecb.js"
   ]
 }
