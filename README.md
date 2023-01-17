@@ -16,6 +16,12 @@ The main goals for me as a web developer were to improve my skills in working wi
 - Google fonts;
 - CSS modules;
 
+## To view the app in the browser, copy and paste the following line to your browser URL address bar:
+
+```
+https://sharinlana.github.io/react-dinnerDelivery-httpRequests/
+```
+
 ## To start the app on your machine:
 
 1. Clone the project to your machine by running:
